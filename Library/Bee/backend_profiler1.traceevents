@@ -1,0 +1,470 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1655853005463499, "dur":599, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655853005464102, "dur":32, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1655853005464140, "dur":11, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1655853005464152, "dur":247, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1655853005464443, "dur":387, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655853005464830, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655853005619570, "dur":160, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655853005619731, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655853005619740, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655853005619741, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655853005619746, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655853005619747, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655853005619752, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655853005619753, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655853005619758, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655853005619759, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655853005619763, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655853005619764, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655853005619768, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655853005619769, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655853005619774, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655853005619775, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655853005619780, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655853005619794, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655853005619798, "dur":1659, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1655853005464735, "dur":136, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655853005464872, "dur":2327, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655853005467206, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1655853005467210, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655853005467908, "dur":284, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1655853005468194, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1655853005468214, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655853005468306, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1655853005469908, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1655853005470389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655853005470395, "dur":646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1655853005471053, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1655853005471077, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655853005471127, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1655853005472018, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1655853005472092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655853005472267, "dur":8362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1655853005480642, "dur":685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005481329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655853005481334, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005482451, "dur":562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005483016, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655853005483022, "dur":622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005483658, "dur":1159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005484821, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655853005484827, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005486181, "dur":543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005486727, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655853005486732, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005487595, "dur":423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005488021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655853005488025, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005488914, "dur":910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005489826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655853005489831, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005491226, "dur":720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005491949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655853005491955, "dur":1760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005493726, "dur":485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005494213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655853005494217, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005495599, "dur":498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005496100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655853005496105, "dur":675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005496788, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005497208, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655853005497212, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005498359, "dur":1306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005499667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655853005499672, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005501499, "dur":931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005502433, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655853005502440, "dur":677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005503128, "dur":916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005504047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655853005504052, "dur":668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005504731, "dur":9463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005514197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655853005514202, "dur":3031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655853005517245, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1655853005517259, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655853005517263, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1655853005518275, "dur":101281, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005465124, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005465124, "dur":2082, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005467207, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1655853005467293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005468617, "dur":1677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1655853005470308, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1655853005470621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005470840, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1655853005471796, "dur":6215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1655853005478013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005478017, "dur":2358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1655853005480390, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005480828, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005480833, "dur":679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005481522, "dur":1248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005482773, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005482778, "dur":2164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005484953, "dur":592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005485548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005485554, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005486774, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005487104, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005487109, "dur":1694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005488915, "dur":996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005489914, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005489919, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005491506, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005491904, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005491909, "dur":1688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005493612, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005494018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005494024, "dur":691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005494726, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005495032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005495037, "dur":933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005495980, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005496578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005496582, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005497657, "dur":944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005498604, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005498609, "dur":841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005499463, "dur":1326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005500793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005500798, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005502463, "dur":1285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005503751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005503756, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005504789, "dur":1116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005505908, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005505913, "dur":658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005506583, "dur":1499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005508084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005508089, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005509017, "dur":1133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005510153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005510159, "dur":554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005510726, "dur":2318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005513048, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005513058, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655853005514086, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1655853005514099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005514118, "dur":1494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1655853005515622, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1655853005515674, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005515678, "dur":475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1655853005516163, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1655853005516175, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005516179, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1655853005517342, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1655853005517356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655853005517360, "dur":1131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1655853005518502, "dur":101051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005464821, "dur":53, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005464874, "dur":2330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005467207, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1655853005467598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005468593, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1655853005470062, "dur":436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1655853005470501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005470507, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1655853005471566, "dur":2478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005474048, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005474371, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005475387, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005475453, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005475458, "dur":629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005476096, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005476197, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005476202, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005477470, "dur":2708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005480181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005480194, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005481417, "dur":579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005481998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005482003, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005483142, "dur":1331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005484476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005484482, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005485415, "dur":497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005485915, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005485921, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005486800, "dur":669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005487471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005487476, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005488605, "dur":719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005489327, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005489332, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005490161, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005490457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005490462, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005491669, "dur":489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005492175, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005492179, "dur":1918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005494107, "dur":541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005494664, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005494669, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005495844, "dur":536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005496382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005496387, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005497564, "dur":513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005498080, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005498111, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005499144, "dur":807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005499954, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005500010, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005500960, "dur":710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005501673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005501682, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005502769, "dur":858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005503630, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005503634, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005504468, "dur":17571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005522041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655853005522045, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655853005523589, "dur":95980, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655853005464940, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655853005464940, "dur":2262, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655853005467207, "dur":607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1655853005467817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655853005468605, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1655853005470336, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1655853005470365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655853005470521, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1655853005471622, "dur":22758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655853005494383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655853005494402, "dur":5939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655853005500364, "dur":9560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655853005509926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655853005509930, "dur":4229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655853005514171, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1655853005514216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655853005514220, "dur":2229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1655853005516463, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1655853005516475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655853005516479, "dur":764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1655853005517256, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1655853005517273, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655853005517277, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1655853005518199, "dur":101368, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005465032, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005465033, "dur":2172, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005467207, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1655853005467296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005468615, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1655853005470142, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1655853005470171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005470178, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1655853005471333, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1655853005471358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005471363, "dur":1538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1655853005472914, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005472991, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005473006, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005474567, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005474639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005474644, "dur":1554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005476210, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005476313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005476319, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005477493, "dur":1508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005479004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005479010, "dur":2143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005481169, "dur":460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005481632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005481652, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005482784, "dur":717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005483504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005483511, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005484512, "dur":531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005485046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005485051, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005486901, "dur":719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005487623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005487629, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005488889, "dur":822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005489714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005489719, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005491296, "dur":610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005491909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005491914, "dur":1894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005493818, "dur":595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005494416, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005494420, "dur":1826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005496257, "dur":892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005497152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005497157, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005498547, "dur":1930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005500480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005500485, "dur":1983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005502482, "dur":881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005503366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005503373, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005504277, "dur":1854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005506134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005506139, "dur":768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005506918, "dur":2895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/Pathfinding.Ionic.Zip.Reduced.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005509816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005509822, "dur":881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/Pathfinding.Ionic.Zip.Reduced.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005510726, "dur":2055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/AstarPathfindingProject.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005512785, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005512794, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/AstarPathfindingProject.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655853005513974, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1655853005513988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005514002, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1655853005514721, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1655853005514732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005514736, "dur":3093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1655853005517841, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1655853005517902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655853005517907, "dur":512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1655853005518428, "dur":101126, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655853005465069, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655853005465070, "dur":2133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655853005467207, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1655853005467260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655853005469036, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1655853005470346, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1655853005470727, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655853005470904, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1655853005471766, "dur":116205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655853005587974, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655853005587980, "dur":31530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655853005619533, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1655853005619536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005465155, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005465155, "dur":2051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005467206, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1655853005467260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005468633, "dur":1646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1655853005470302, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1655853005470328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005470891, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1655853005472032, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005472127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005472358, "dur":1768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005474140, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005474208, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005474212, "dur":617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005474840, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005474926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005474931, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005475867, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005475936, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005475940, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005477319, "dur":2805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005480128, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005480136, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005481387, "dur":540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005481930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005481934, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005482911, "dur":901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005483814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005483819, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005484707, "dur":609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005485319, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005485323, "dur":1268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005486615, "dur":688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005487306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005487312, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005488566, "dur":551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005489120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005489125, "dur":563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005489700, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005490086, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005490091, "dur":1459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005491561, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005492160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005492179, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005494003, "dur":531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005494536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005494542, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005496170, "dur":565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005496738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005496743, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005498191, "dur":589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005498783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005498788, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005499644, "dur":679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005500331, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005500337, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005501895, "dur":3134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005505032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005505037, "dur":1541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005506589, "dur":1617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005508209, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005508212, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005509345, "dur":36083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005545431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655853005545436, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655853005547485, "dur":72075, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005465143, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005465144, "dur":2061, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005467207, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1655853005467621, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005468598, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1655853005469945, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1655853005469976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005470004, "dur":881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1655853005470898, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1655853005470926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005470933, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1655853005471982, "dur":464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman.exe" }}
+,{ "pid":12345, "tid":8, "ts":1655853005472448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005472452, "dur":2056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman.exe" }}
+,{ "pid":12345, "tid":8, "ts":1655853005474519, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005474589, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005474594, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005475842, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005475918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005475923, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005477287, "dur":2651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005479963, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005479972, "dur":1446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005481431, "dur":3812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005485246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005485251, "dur":1810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005487069, "dur":705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005487777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005487783, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005488830, "dur":697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005489530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005489536, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005490444, "dur":464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005490911, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005490916, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005491767, "dur":582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005492351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005492356, "dur":1677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005494044, "dur":2854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005496925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005496931, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005498661, "dur":838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005499502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005499508, "dur":2218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005501742, "dur":1328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005503072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005503079, "dur":662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005503751, "dur":705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005504459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005504465, "dur":483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005504958, "dur":6495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005511470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005511476, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005513440, "dur":980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005514426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005514437, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655853005515113, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1655853005515169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005515174, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1655853005516198, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1655853005516210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005516214, "dur":766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1655853005516992, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1655853005517008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005517012, "dur":463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1655853005517483, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1655853005517493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655853005517497, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hoax/Desktop/BombermanBuild/bomberman_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1655853005518520, "dur":101050, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655853005623541, "dur":1210, "ph":"X", "name": "ProfilerWriteOutput" }
+,
